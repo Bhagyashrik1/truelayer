@@ -1,0 +1,47 @@
+body{
+	font-family: source-sans-pro;
+	font-size: 18px;
+
+}
+/*video{
+	height: 600px;
+	width: 200px;
+
+}*/
+nav{
+	position: sticky;
+}
+.contact, .sign{
+	border-radius: 50px;
+	margin-right: 10px;
+
+}
+.sign:hover{
+	background-color: black;
+}
+.second {
+	background-color: rgb(198, 190, 230);
+	text-align: center;
+	padding: 15px;
+	
+}
+.second a{
+	color: black;
+	text-decoration: none;
+}
+.second a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.second span:hover{
+text-decoration: none;
+}
+.logo{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    visibility: hidden;
+  }
+
