@@ -1,6 +1,7 @@
 body{
 	font-family: source-sans-pro;
 	font-size: 18px;
+	
 
 }
 /*video{
@@ -8,6 +9,25 @@ body{
 	width: 200px;
 
 }*/
+.info p{
+	padding-top: 25px;
+}
+ .logo-image{
+	 	height: 40px;
+	 	width: 40px;
+	 	margin-right: 5px;
+ }
+ .display-1{
+ 			display: inline-block;
+ 			vertical-align: top; 
+ 			text-decoration: inherit;
+ 			text-wrap: balance;
+ 			font-weight: 600;
+ }
+span {
+	padding: 2px 7px;
+	font-weight: 600;
+}
 nav{
 	position: sticky;
 }
@@ -29,13 +49,12 @@ nav{
 	color: black;
 	text-decoration: none;
 }
-.second a:hover{
+.second a b:hover, .second a i:hover, .second a strong:hover{
 	color: black;
 	text-decoration: underline;
 }
-.second span:hover{
-text-decoration: none;
-}
+
+
 .logo{
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -45,3 +64,4 @@ text-decoration: none;
     visibility: hidden;
   }
 
+}
